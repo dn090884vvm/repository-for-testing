@@ -75,7 +75,8 @@ img {
 
 .nav-list {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  font-size: 14px;
 }
 .head-contact {
   display: flex;
@@ -87,7 +88,7 @@ img {
 font-family: Raleway;
 font-weight: 700;
 font-size: 26px;
-line-height: 1.19;
+line-height: 1.2;
 letter-spacing: 0.03em;
 color: #000000;
 margin-right: 93px;
