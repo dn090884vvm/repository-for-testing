@@ -75,7 +75,7 @@ img {
 .nav-list {
   display: flex;
   /* align-items: center; */
-  font-size: 14px;
+  /* font-size: 14px; */
 }
 .head-contact {
   display: flex;
