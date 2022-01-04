@@ -41,8 +41,8 @@ p {
   text-decoration: none;
 }
 
-.vis{
-outline: 2px solid tomato;
+.vis {
+  outline: 2px solid tomato;
 }
 
 .container {
@@ -56,7 +56,6 @@ outline: 2px solid tomato;
   padding-top: 24px;
   padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
-  ]
 }
 
 img {
@@ -85,53 +84,55 @@ img {
 }
 
 .logo {
-font-family: Raleway;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.2;
-letter-spacing: 0.03em;
-color: #000000;
-margin-right: 93px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #000000;
+  margin-right: 93px;
 }
 .accent {
   color: var(--accent);
 }
 .nav-link {
-font-family: Roboto;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--primary-text);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text);
 }
 
 .nav-item:not(:last-child) {
   margin-right: 50px;
 }
 
-
 .nav-contact-link {
-font-family: Roboto;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--secondary-text);
-display: flex;
-align-items: center;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text);
+  display: flex;
+  align-items: center;
 }
 
 .head-icon {
-  fill:currentColor;
+  fill: currentColor;
   margin-right: 10px;
 }
 .nav-contact-item:not(:last-child) {
   margin-right: 50px;
 }
 
-.nav-link:hover, .nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--accent);
 }
 
-.nav-contact-link:hover,.nav-contact-link:focus
- {color: var(--accent);}
+.nav-contact-link:hover,
+.nav-contact-link:focus {
+  color: var(--accent);
+}
